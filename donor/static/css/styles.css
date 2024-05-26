@@ -1,0 +1,45 @@
+/* Custom CSS for the footer */
+.footer {
+    background-color: #17a2b8; /* Bootstrap info color */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer .row {
+    margin: 0;
+    align-items: center;
+}
+
+.footer .text-lg-start,
+.footer .text-lg-end {
+    font-size: 1rem;
+}
+
+.footer .btn-social {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer .btn-social:hover {
+    color: #17a2b8;
+    background-color: #fff;
+}
+
+.footer .link-dark {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .link-dark:hover {
+    color: #f8f9fa;
+}
+
+
